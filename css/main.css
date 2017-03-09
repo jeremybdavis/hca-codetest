@@ -95,17 +95,27 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
+.about-me img {
+  margin-bottom: 25px;
+}
+
+.about-me p {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 #bs-override .carousel-item {
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
-  height: 800px;
+  height: 100%;
   width: 100%;
   z-index: 0;
+}
+
+.carousel-inner {
+  height: 100vh;
 }
 
 .carousel-item::after {
@@ -132,6 +142,37 @@ body {
 
 .carousel-item:nth-of-type(3) {
   background-image: url('https://unsplash.it/1200/800?image=0');
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info a {
+  color: #337ab7;
+}
+
+.contact-info a:hover {
+  text-decoration: none;
+}
+
+.contact-info .fa {
+  margin: 10px 8px 0;
+}
+
+.contact-info span {
+  font-weight: 600;
+}
+
+.content-wrapper {
+  padding-top: 60px;
+}
+
+.content-wrapper h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 .hero-content {
@@ -168,6 +209,20 @@ body {
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+#bs-override .navbar-brand {
+  color: #fff;
+}
+
+#bs-override .navbar-default {
+  background-color: #3b4042;
+  border-bottom: 0;
+  opacity: .8;
+}
+
+#bs-override .navbar-nav a {
+  color: #fff;
 }
 
 .navbar-toggle .icon-bar {
