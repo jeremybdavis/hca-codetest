@@ -252,6 +252,7 @@ footer .fa {
 
 #bs-override .navbar-brand {
   color: #fff;
+  cursor: pointer;
   text-transform: uppercase;
   transition: .3s all ease-in-out;
 }
